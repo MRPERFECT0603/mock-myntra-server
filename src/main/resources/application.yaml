@@ -1,24 +1,23 @@
 spring:
   application:
     name: EcommerceBackend
+
   datasource:
-    url: jdbc:${MYSQL_DATABASE_URL}
+    url: ${MYSQL_DATABASE_URL}
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
+
   jpa:
     show-sql: true
     hibernate:
-      ddl-auto: update
+      ddl-auto: create-drop
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
 
-
 server:
-  port: ${PORT}
+  port: ${PORT:8001}
 
 fakeStore:
   baseUrl: ${FAKE_STORE_BASE_URL:https://fakestoreapi.com/products/}
-
-
