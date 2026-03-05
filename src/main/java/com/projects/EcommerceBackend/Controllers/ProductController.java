@@ -5,6 +5,7 @@ import com.projects.EcommerceBackend.DTOs.ProductDTO;
 import com.projects.EcommerceBackend.Entity.Product;
 import com.projects.EcommerceBackend.Services.ProductService;
 import org.springframework.web.bind.annotation.*;
+import io.springmcp.annotation.McpTool;
 
 import java.util.List;
 
@@ -20,11 +21,19 @@ public class ProductController {
     }
 
 //    -----------------------Database Mapping-----------------------
+    @McpTool(
+        name = "get_all_products_db",
+        description = "Fetch all products"
+    )
     @GetMapping("/db")
     public List<Product> getAllProductsfromDB() throws ApiException {
         return productService.getAllProductsFromDB();
     }
 
+    @McpTool(
+            name = "add_products_db",
+            description = "add products to the database"
+    )
     @PostMapping("/db")
     public Product addProductToDB(@RequestBody Product product) throws ApiException {
         return productService.addProductToDB(product);
