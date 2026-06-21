@@ -1,7 +1,7 @@
-package com.projects.EcommerceBackend.Gateways;
+package com.projects.flipkart.Gateways;
 
-import com.projects.EcommerceBackend.CustomExceptions.ApiException;
-import com.projects.EcommerceBackend.DTOs.ProductDTO;
+import com.projects.flipkart.CustomExceptions.ApiException;
+import com.projects.flipkart.DTOs.ProductDTO;
 
 import java.util.List;
 

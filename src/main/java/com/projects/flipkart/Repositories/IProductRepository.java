@@ -1,6 +1,6 @@
-package com.projects.EcommerceBackend.Repositories;
+package com.projects.flipkart.Repositories;
 
-import com.projects.EcommerceBackend.Entity.Product;
+import com.projects.flipkart.Entity.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 

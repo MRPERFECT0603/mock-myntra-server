@@ -1,4 +1,4 @@
-package com.projects.EcommerceBackend.DTOs;
+package com.projects.flipkart.DTOs;
 
 
 import lombok.AllArgsConstructor;

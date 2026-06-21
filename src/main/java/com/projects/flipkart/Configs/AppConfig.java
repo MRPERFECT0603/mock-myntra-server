@@ -1,4 +1,4 @@
-package com.projects.EcommerceBackend.Configs;
+package com.projects.flipkart.Configs;
 
 import okhttp3.OkHttpClient;
 import com.fasterxml.jackson.databind.ObjectMapper;

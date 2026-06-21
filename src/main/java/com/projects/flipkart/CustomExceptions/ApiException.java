@@ -1,4 +1,4 @@
-package com.projects.EcommerceBackend.CustomExceptions;
+package com.projects.flipkart.CustomExceptions;
 // This is a common way to define a custom exception
 
 public class ApiException extends Exception {

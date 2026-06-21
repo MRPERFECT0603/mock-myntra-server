@@ -1,4 +1,4 @@
-package com.projects.EcommerceBackend;
+package com.projects.flipkart;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,12 +1,11 @@
-package com.projects.EcommerceBackend.Services;
+package com.projects.flipkart.Services;
 
-import com.projects.EcommerceBackend.CustomExceptions.ApiException;
-import com.projects.EcommerceBackend.DTOs.ProductDTO;
-import com.projects.EcommerceBackend.Entity.Product;
-import com.projects.EcommerceBackend.Gateways.IProductGateway;
-import com.projects.EcommerceBackend.Repositories.IProductRepository;
+import com.projects.flipkart.CustomExceptions.ApiException;
+import com.projects.flipkart.DTOs.ProductDTO;
+import com.projects.flipkart.Entity.Product;
+import com.projects.flipkart.Gateways.IProductGateway;
+import com.projects.flipkart.Repositories.IProductRepository;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.List;
 

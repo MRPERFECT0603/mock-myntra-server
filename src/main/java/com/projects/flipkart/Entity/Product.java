@@ -1,4 +1,4 @@
-package com.projects.EcommerceBackend.Entity;
+package com.projects.flipkart.Entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

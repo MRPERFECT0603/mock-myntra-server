@@ -1,9 +1,9 @@
-package com.projects.EcommerceBackend.Gateways;
+package com.projects.flipkart.Gateways;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.projects.EcommerceBackend.CustomExceptions.ApiException;
-import com.projects.EcommerceBackend.DTOs.ProductDTO;
+import com.projects.flipkart.CustomExceptions.ApiException;
+import com.projects.flipkart.DTOs.ProductDTO;
 import com.fasterxml.jackson.core.type.TypeReference;
 import okhttp3.MediaType;
 import org.springframework.beans.factory.annotation.Value;
@@ -13,7 +13,6 @@ import okhttp3.Response;
 import org.springframework.stereotype.Component;
 import okhttp3.RequestBody;
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.List;
 
 @Component

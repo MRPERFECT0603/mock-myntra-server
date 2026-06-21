@@ -1,4 +1,4 @@
-package com.projects.EcommerceBackend.Entity;
+package com.projects.flipkart.DTOs;
 
 import lombok.Getter;
 import lombok.Setter;
